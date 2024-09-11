@@ -1,0 +1,37 @@
+body{
+    text-transform: capitalize;
+    background-color: #224c98;
+}
+
+.list_clone{
+    padding-inline-start: 0;
+}
+
+.list_clone > li > a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.list_clone > li{
+    list-style: none;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.list_clone > li:hover{
+    background-color: black;
+}
+
+.list_clone > li > a:hover{
+    color: white;
+}
+
+body > div > h5{
+    color: white;
+}
+
+body > div > h5 > a:hover{
+    color: black;
+}

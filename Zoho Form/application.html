@@ -1,0 +1,309 @@
+<html>
+    <head>
+        <title> Clone Zoho Corporation | Web Developer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="validation.js"></script>
+    </head>
+
+    <body>
+        <img src="images/Zoho icon.png" alt="zoho icon">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3"></div>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 zohoApp_one">
+                    <center>
+                        <p style="font-size: 18px; letter-spacing:1px;">zoho Corporation <span style="padding: 0 6px;">|</span>full time</p>
+                    
+                    <h1 style="font-size: 50px;">web developers</h1>
+                    </center>
+                    <div>
+                        
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4"></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="zohoApp_two">
+                <a href="#">job listing</a> 
+                <span> > </span>
+                <a href="#">job details</a>
+                <span> > </span>
+                <a  href="#" style="color: gray !important;">job application</a>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 zohoApp_three">
+                    <h4>autofill application</h4>
+                    <p>Upload your resume/cv in seconds with the autofill option.</p>
+                    <br>
+                    <br>
+                    <div class="zohoApp_four">
+                        <center>
+                        <label class="zohoApp_file">
+                            <input type="file">
+                            Upload your resume 
+                        </label>
+                        <p> or drag and drop it here</p>
+                        <p style="display: block !important;">Only .doc, .docx, .pdf, .odt, .rtf</p>
+                        <p>(optional)</p>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 zohoApp_right">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p>please sign in to apply with zoho Corporation</p>
+
+                    <div class="zohoApp_five">
+                        <center>
+                        <div class="zohoApp_six">
+                            <img src="images/favicon.ico" class="img-responsive" alt="icon">
+                        </div>
+                            <abbr title="Apply using Zoho Corporation's candidate portal"> <a href="#" class="btn">easy apply</a> </abbr>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3"></div>    
+            </div>
+            <br>
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 ZohoApp_head">
+                    <h4>personal details - </h4>
+                   <abbr title="Clear the fields in this section" style="text-decoration:none;"> <a href="#" onclick="clearForm()">clear</a> </abbr>
+                    
+                        <div class="form-group zohoApp_seven">
+                        <form name="c2" onsubmit="return validationForm()" id="clearbutton">    
+                            <label for="fname">First name</label>
+                            <span class="zohoApp_eight">*</span>
+                            <br>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="padding: 0 10px 0 0;">
+                                <select class="form-control" name="iname">
+                                    <option></option>
+                                    <option>Mr.</option>
+                                    <option>Mrs.</option>
+                                    <option>Ms.</option>
+                                </select>
+                            </div>
+
+                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 zohoApp_seven" style="padding:0;">
+                                <input type="text" class="form-control" style="float: left;" name="pname" id="fname">
+                            </div>
+                        
+
+                        
+                            <label for="lname">Last Name</label>
+                            <span class="zohoApp_eight">*</span>
+                            <input type="text" class="form-control" id="lname" name="plname">
+                
+
+                        
+                            <label for="pemail">Email</label>
+                            <span class="zohoApp_eight">*</span>
+                            <input type="email" class="form-control" id="pemail" name="pemail"> 
+                    
+
+                        
+                            <label for="pcontact">Contact</label>
+                            <span class="zohoApp_eight">*</span>
+                            <input type="text" class="form-control" id="pcontact" name="pcontact"> 
+                
+
+                        
+                            <label for="pgrad">Year of Graduation</label>
+                            <span class="zohoApp_eight">*</span>
+                            <input type="text" class="form-control" id="pgrad" name="pgrad"> 
+
+                        
+                            <label for="pg">Gender</label>
+                            <span class="zohoApp_eight">*</span>
+                            <select class="form-control" id="pg" name="pgender">
+                                <option></option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Not Willing to Disclose</option>
+                            </select> 
+                        
+
+                            <label for="pey">Experience in Years</label>
+                            <span class="zohoApp_eight">*</span>
+                            <select class="form-control" id="pey" name="pexp">
+                                <option></option>
+                                <option>Fresher</option>
+                                <option>0-1 years</option>
+                                <option>1-2 years</option>
+                                <option>2-3 years</option>
+                                <option>3-4 years</option>
+                                <option>4-5 years</option>
+                                <option>5-6 years</option>
+                                <option>6-7 years</option>
+                                <option>7-8 years</option>
+                                <option>8-9 years</option>
+                                <option>9-10 years</option>
+                                <option>10+ years</option>
+                                <option>12+ years</option>
+                                <option>15+ years</option>
+                            </select> 
+                        
+
+                    
+                            <label for="pcue">Current Employer</label>
+                            <span class="zohoApp_eight">*</span>
+                            <input type="text" class="form-control" id="pcue" name="pce"> 
+                    
+
+                        
+                            <label for="pctc">Current CTC(In Lakhs Per Annum)</label>
+                            <span class="zohoApp_eight">*</span>
+                            <select class="form-control" id="pctc" name="pctc">
+                                <option></option>
+                                <option>Not Applicable</option>
+                                <option>1-3</option>
+                                <option>3-5</option>
+                                <option>5-7</option>
+                                <option>7-9</option>
+                                <option>9-10</option>
+                                <option>10+</option>
+                            </select> 
+                    
+
+                        
+                            <label for="pectc">Expected CTC (In Lakhs Per Annum)</label>
+                            <span class="zohoApp_eight">*</span>
+                            <select class="form-control" id="pectc" name="pectc">
+                                <option></option>
+                                <option>open</option>
+                                <option>1-3</option>
+                                <option>3-5</option>
+                                <option>5-7</option>
+                                <option>7-9</option>
+                                <option>9-10</option>
+                                <option>10+</option>
+                            </select>
+                        
+
+                        
+                            <label for="pnp">Notice Period</label>
+                            <span class="zohoApp_eight">*</span>
+                            <select class="form-control" id="pnp" name="pnp">
+                                <option></option>
+                                <option>Immediate</option>
+                                <option>Not Applicable</option>
+                                <option>1 month</option>
+                                <option>2 months</option>
+                                <option>3 months</option>
+                             </select>
+                        
+
+                        
+                            <label for="pss">Skill Set</label>
+                            <span class="zohoApp_eight">*</span>
+                            <input type="text" class="form-control" id="pss" name="pss"> 
+                
+
+                    
+                            <label for="pv">How did you come across this vacancy?</label>
+                            <span class="zohoApp_eight">*</span>
+                            <select class="form-control" id="pv" name="pv">
+                                <option></option>
+                                <option>Newspaper AD</option>
+                                <option>Instagram</option>
+                                <option>LinkedIn</option>
+                                <option>Facebook</option>
+                                <option>Referral</option>
+                                <option>Zoho Careers Page</option>
+                             </select>
+                
+
+                        
+                            <label for="pcl">Current Location</label>
+                            <span class="zohoApp_eight">*</span>
+                            <input type="text" class="form-control" id="pcl" name="pcl"> 
+            
+
+                        
+                            <label for="ppl">Preferred Location</label>
+                            <span class="zohoApp_eight">*</span>
+                            <select class="form-control" id="ppl" name="ppl">
+                                <option></option>
+                                <option>Chennai</option>
+                                <option>Madurai</option>
+                                <option>Salem</option>
+                                <option>Tenkasi</option>
+                                <option>Tirunelveli</option>
+                            </select>
+        
+
+                        
+                            <h3>Upload Your Resume</h3>
+                            <label for="pr">Resume</label>
+                            <span class="zohoApp_eight">*</span>
+                            <div class="zohoApp_four">
+                                <center>
+                                <label class="zohoApp_file">
+                                    <input type="file" id="pr" name="pr">
+                                    Browse 
+                                </label>   
+                                </center>
+                            </div>          
+                        <br>
+                        <br>
+
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 zohoApp_submit" style="padding-right:0;">
+                            <a href="#" class="btn btn-block" onclick="clearForm()">cancel</a>
+                            <br>
+                        </div>
+                        <div class="col-sm-4 col-xs-4"></div>
+                        
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 zohoApp_submit">
+                            <input type="submit" class="form-control" value="Submit Application">
+                        </div>
+                        <div class="col-lg-2 col-md-2"></div>
+                    </form>    
+                </div>        
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="zohoApp_bottom">
+            <center>
+                <a href="#">view all jobs</a>
+                <li> . </li>
+                <a href="#">visit website</a>
+            </center>
+        </div>
+
+        <div class="jumbotron zohoApp_last">
+            <center>
+                <p>powered by</p>
+                <img src="images/zoho recruitment logo.svg"  alt="zoho recruit">
+            </center>
+        </div>
+
+        <h5> <span class="glyphicon glyphicon-copyright-mark"></span> copyright @2024 | design by <a href="#">diwakar</a> </h5>
+        
+    </body>
+</html>

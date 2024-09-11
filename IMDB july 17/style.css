@@ -1,0 +1,157 @@
+body{
+    text-transform: capitalize;  
+    background-color: var(--ipt-baseAlt-color, rgb(0,0,0));  
+    color: white;
+}
+
+.clone_icon{
+    width: 100px;
+    height: 100px;
+}
+
+span{
+    border: 2px solid white;
+}
+
+.inside_one > span{
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin-bottom: 4px;
+}
+
+.inside_one{
+    padding-right: 15px;
+    padding-top: 25px;
+}
+
+.inside_one > p{
+    font-size: 14px;
+}
+
+.inside_twoi1{
+    height: 5%; 
+    width: 40%;   
+    border-radius: 4px;
+}
+
+.inside_twoi2{
+    height: 5%;
+    font-weight: 900;
+    border-radius: 3px;
+    background-color:#f5c518;    
+    color: black;
+}
+
+.inside_two{
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+.cloneC_one{
+    padding-bottom: 20px;
+    color: black;
+}
+
+.cloneC_one > h5{
+    text-transform: none;
+    color: black !important;
+}
+
+.cloneC_two{
+    color: black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.cloneC_two > h1{
+    border-left: 4px solid #f5c518;
+    padding-left: 20px;
+}
+
+.cloneC_two > h5{
+    padding-bottom: 18px;
+    color: gray !important;
+    text-transform: none;
+}
+
+
+.cloneC_two > button{
+    border-radius: 16px;
+    color: black;
+    border-color: gray;
+    margin: 0 6px 18px 0;
+    padding: 4px 6px;
+    background-color: white;
+}
+
+.cloneC_two > button:hover{
+    background-color: #f5c518;
+    border: none;
+}
+
+.cloneC_twoi > h5{
+    display: inline-block;
+    color: gray !important;
+}
+
+.cloneC_twoi > h5,a{
+    margin-right: 8px;
+}
+
+.bg{
+    background-color: white;
+}
+
+.cloneC_three{
+    background-color: black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.cloneC_three > h3,h5{
+    color: white !important;
+}
+
+.cloneC_three > h3{
+    margin-bottom: 4%;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.cloneC_threeB{
+    background-color: #f5c518;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.cloneC_four{
+    border: 1px solid gray;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+
+.cloneC_five > a{ 
+    padding-right: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.cloneC_five{
+    margin-bottom:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

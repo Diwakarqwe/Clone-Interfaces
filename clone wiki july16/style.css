@@ -1,0 +1,170 @@
+.wiki_one > h2{
+     text-transform: uppercase;
+     font-size: 38px;
+}
+
+body{
+    text-transform: capitalize;
+}
+
+.cloneNav{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.cloneNav_bar > span{
+    border: 1px solid black;
+}
+
+.clone_icon > img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.clone_icon{
+    padding: 0 15px;
+}
+
+.clone_icon > h3{
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clone_icon > h5{
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cloneC_one{
+    text-align: center;
+    border: 1px solid gray;
+    background-color: #f9f9f9;
+    margin-bottom: 4px;
+}
+
+.cloneNav_two > form{
+    display: inline; 
+    padding-left: 3%;   
+ }
+ 
+#searchsize{
+    width:30%;
+    height: 30px;
+    padding: 0;
+    border: 1px solid grey;
+}
+
+#searchsubmit{
+    height: 30px;
+}
+
+
+ @media (min-width: 992px) {
+    .cloneC_mquery{
+        padding: 0 4px 0 0;
+    }
+ }
+
+ @media (max-width: 768px) {
+    .cloneC_mquery{
+        padding:0;
+    }
+ }
+.cloneC_two{
+    text-transform: none;
+    border: 1px solid green;
+    background-color: #f5fffa;
+    padding: 0 10px;
+    margin-bottom: 4px;
+}
+
+.cloneC_two > h4{
+    border: 1px solid green;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.cloneC_two > h5{
+    line-height: 24px ;
+}
+
+.cloneC_threeL > li{
+    line-height: 24px;
+
+}
+
+.cloneC_three{
+    text-transform: none;
+    border: 1px solid blue;
+    background-color: #f5faff;
+    padding: 0 10px;
+    margin-bottom: 4px;
+}
+
+.cloneC_three > h4{
+    border: 1px solid blue;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.cloneC_four{
+    text-transform: none;
+    border: 1px solid violet;
+    background-color: #faf5ff;
+    padding: 0 10px;
+    margin-bottom: 4px;
+}
+
+.cloneC_four > h4{
+    border: 1px solid violet;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.cloneC_four > h5{
+    line-height: 24px;
+}
+
+.cloneC_five{
+    text-transform: none;
+    border: 1px solid gray;
+    background-color: #f9f9f9;
+    padding: 0 10px;
+    margin-bottom: 4px;
+}
+
+.cloneC_five > h4{
+    border: 1px solid grey;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.cloneC_five > h5{
+    line-height: 24px;
+}
+
+.cloneC_six > h5{
+    font-weight: 700;
+}
+
+.cloneC_seven > h4{
+    display: inline-block;
+}
+
+.cloneC_seven > input{
+    margin-bottom: 15px;
+}
+
+.cloneC_seven{
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+
+
