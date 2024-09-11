@@ -26,7 +26,7 @@ span{
 }
 
 @media(max-width:992px){
-    .inside_one{
+    .inside_one > span{
         display:none;
     }
 }  
